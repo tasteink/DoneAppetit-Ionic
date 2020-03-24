@@ -1,0 +1,25 @@
+.Chip {
+  display: inline-flex;
+  border-radius: 20px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  background: transparent;
+  transition: all 0.35s;
+  color: var(--colorMutedText);
+  border: 2px solid var(--colorMutedText);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -0.01rem;
+}
+
+.ChipActive {
+  background-image: var(--colorBrandGradient);
+  color: var(--colorBrandBlack);
+  border: 2px solid var(--colorBrandBlack);
+}
+
+.ChipGroup {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,126 @@
+.ViewTitleText {
+  font-family: var(--headingFont);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.04rem;
+  color: var(--colorBrandBlack);
+  text-shadow: var(--textShadow);
+  transform: rotate(-0.5deg);
+  margin-bottom: 24px;
+}
+
+.SectionTitleText {
+  font-family: var(--headingFont);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.1rem;
+  color: var(--colorBrandBlack);
+  text-shadow: var(--textShadow);
+  margin-bottom: 16px;
+}
+
+.BigMutedText {
+  font-family: var(--headingFont);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: -0.1rem;
+  color: var(--colorMutedText);
+  margin: 24px 0;
+}
+
+.MediumMutedText {
+  font-family: var(--headingFont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.1rem;
+  color: var(--colorMutedText);
+  margin-bottom: 16px;
+}
+
+.SmallMutedText {
+  font-family: var(--headingFont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.05rem;
+  color: var(--colorMutedText);
+}
+
+.SectionSubTitleText {
+  color: var(--colorBrandBlack);
+  font-family: var(--headingFont);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.05rem;
+  margin-bottom: 12px;
+}
+
+.LinkText {
+  font-family: var(--textFont);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02rem;
+  text-decoration-line: underline;
+  color: var(--colorBrandGradient);
+}
+
+.LinkText.whiteLink {
+  color: #fff !important;
+}
+
+.MiniText {
+  font-family: var(--textFont);
+  color: var(--colorMutedText);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 120%;
+  letter-spacing: -0.04rem;
+  text-transform: uppercase;
+}
+
+.SmallText {
+  font-family: var(--textFont);
+  color: var(--colorMutedText);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: -0.05rem;
+  text-transform: uppercase;
+}
+
+.Text {
+  color: var(--colorBrandBlack);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.025em;
+}
+
+.BoldText {
+  color: var(--colorBrandBlack);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: -0.025em;
+}

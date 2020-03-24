@@ -1,0 +1,34 @@
+ion-content ion-toolbar {
+  --background: translucent;
+}
+
+.SearchScreen {
+  --background: var(--colorBackgroundGradient);
+}
+
+.SearchScreen .AppScreen {
+}
+
+.SearchScreenSection {
+  margin: 8px 0;
+  margin-bottom: 8px;
+}
+
+.n0 {
+  margin-top: 8px;
+}
+
+.filters {
+  padding: 0 16px;
+  padding-bottom: 24px;
+}
+
+.resetFiltersLink {
+  margin-left: 24px;
+}
+
+.filtersTitleRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}

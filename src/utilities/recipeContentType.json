@@ -1,0 +1,172 @@
+{
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "3uhcj2e79hvr"
+      }
+    },
+    "id": "recipe",
+    "type": "ContentType",
+    "createdAt": "2020-03-22T03:24:44.102Z",
+    "updatedAt": "2020-03-22T04:02:17.870Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "revision": 4
+  },
+  "displayField": "name",
+  "name": "Recipe",
+  "description": "",
+  "fields": [
+    {
+      "id": "name",
+      "name": "name",
+      "type": "Symbol",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "shortDescription",
+      "name": "short description",
+      "type": "Symbol",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "prepTime",
+      "name": "prep time",
+      "type": "Integer",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "cookTime",
+      "name": "cook time",
+      "type": "Integer",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "featuredImages",
+      "name": "featured images",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkMimetypeGroup": ["image"]
+          }
+        ],
+        "linkType": "Asset"
+      }
+    },
+    {
+      "id": "featuredVideo",
+      "name": "featured video",
+      "type": "Link",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "linkType": "Asset"
+    },
+    {
+      "id": "isKetoFriendly",
+      "name": "is keto friendly",
+      "type": "Boolean",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "isAipFriendly",
+      "name": "is aip friendly",
+      "type": "Boolean",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "isWhole30Friendly",
+      "name": "is whole30 friendly",
+      "type": "Boolean",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "difficulty",
+      "name": "difficulty",
+      "type": "Integer",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false
+    },
+    {
+      "id": "ingredients",
+      "name": "ingredients",
+      "type": "Array",
+      "localized": false,
+      "required": true,
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Link",
+        "validations": [
+          {
+            "linkContentType": ["ingredient"]
+          }
+        ],
+        "linkType": "Entry"
+      }
+    },
+    {
+      "id": "tags",
+      "name": "tags",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Symbol",
+        "validations": []
+      }
+    },
+    {
+      "id": "directions",
+      "name": "directions",
+      "type": "Array",
+      "localized": false,
+      "required": false,
+      "disabled": false,
+      "omitted": false,
+      "items": {
+        "type": "Symbol",
+        "validations": []
+      }
+    }
+  ]
+}

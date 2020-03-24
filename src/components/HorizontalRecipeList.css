@@ -1,0 +1,50 @@
+.HorizontalRecipeList {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.listTitleRow {
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  padding: 0 12px 12px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  min-width: 100%;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.HorizontalRecipeList .recipeImage {
+  display: flex;
+  flex-direction: column;
+  width: 168px;
+  min-width: 168px;
+  height: 168px;
+
+  /* margin-bottom: 8px; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 12px;
+}
+
+.recipeTitle {
+  margin: 0px;
+  padding: 8px 4px;
+  font-size: 20px;
+}
+
+.seeMoreLink {
+  margin-bottom: 16px;
+}

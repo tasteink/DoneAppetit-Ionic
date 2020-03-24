@@ -1,0 +1,408 @@
+{
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "3uhcj2e79hvr"
+      }
+    },
+    "id": "3MspMp3Xry4Hy43NMXn4ZD",
+    "type": "Entry",
+    "createdAt": "2020-03-22T03:57:39.269Z",
+    "updatedAt": "2020-03-22T04:00:28.037Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "revision": 2,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "recipe"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "name": "Colton's basic and boring cinnamon toast",
+    "shortDescription": "This recipe is great not only for lazy people, but also for poor people, like Colton!",
+    "prepTime": 5,
+    "cookTime": 10,
+    "featuredImages": [
+      {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "3uhcj2e79hvr"
+            }
+          },
+          "id": "3y6naDxuLAaUN5VcuSTcVq",
+          "type": "Asset",
+          "createdAt": "2020-03-22T03:44:53.861Z",
+          "updatedAt": "2020-03-22T03:44:53.861Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Colton's Cinnamon Toast",
+          "file": {
+            "url": "//images.ctfassets.net/3uhcj2e79hvr/3y6naDxuLAaUN5VcuSTcVq/d0e846f3f47ba4dc2036d44aef9dec8f/906746_Shamarie84_f9b1590f-9ef3-475e-8fa6-3b15afb28d2d.jfif",
+            "details": {
+              "size": 204496,
+              "image": {
+                "width": 1200,
+                "height": 900
+              }
+            },
+            "fileName": "906746_Shamarie84_f9b1590f-9ef3-475e-8fa6-3b15afb28d2d.jfif",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    ],
+    "isKetoFriendly": true,
+    "isAipFriendly": false,
+    "isWhole30Friendly": false,
+    "difficulty": 1,
+    "ingredients": [
+      {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "3uhcj2e79hvr"
+            }
+          },
+          "id": "6ONnHLQTtmy9O9n9a1rnCJ",
+          "type": "Entry",
+          "createdAt": "2020-03-22T03:47:13.366Z",
+          "updatedAt": "2020-03-22T03:47:13.367Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "ingredient"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "name": "Sliced Bread (Honey Wheat)",
+          "isKetoFriendly": true,
+          "isAipFriendly": true,
+          "isWhole30Friendly": true,
+          "featuredImages": [
+            {
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "3uhcj2e79hvr"
+                  }
+                },
+                "id": "6mBNDVCBg9qax8IhO5bPDD",
+                "type": "Asset",
+                "createdAt": "2020-03-22T03:46:57.487Z",
+                "updatedAt": "2020-03-22T03:46:57.487Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Nature's Own Honey Wheat Bread On Store Shelf",
+                "file": {
+                  "url": "//images.ctfassets.net/3uhcj2e79hvr/6mBNDVCBg9qax8IhO5bPDD/cdcb4333e7cff017cb2ce5d125dc214f/natures-own-honey-wheat.jpg",
+                  "details": {
+                    "size": 231186,
+                    "image": {
+                      "width": 500,
+                      "height": 514
+                    }
+                  },
+                  "fileName": "natures-own-honey-wheat.jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "3uhcj2e79hvr"
+            }
+          },
+          "id": "9UYnDvWyjxKU8gGJEP0jc",
+          "type": "Entry",
+          "createdAt": "2020-03-22T03:49:36.978Z",
+          "updatedAt": "2020-03-22T03:49:36.978Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "ingredient"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "name": "Ground Cinnamon",
+          "isKetoFriendly": true,
+          "isAipFriendly": true,
+          "isWhole30Friendly": true,
+          "featuredImages": [
+            {
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "3uhcj2e79hvr"
+                  }
+                },
+                "id": "6ukYW2raiDpryFNcP5LvoJ",
+                "type": "Asset",
+                "createdAt": "2020-03-22T03:49:14.537Z",
+                "updatedAt": "2020-03-22T03:49:14.537Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Ground Cinnamon",
+                "file": {
+                  "url": "//images.ctfassets.net/3uhcj2e79hvr/6ukYW2raiDpryFNcP5LvoJ/83b84bff3587bfa83a3e933dd5848bd6/How_much_cinnamon_is_in_a_spoon.jpg",
+                  "details": {
+                    "size": 108936,
+                    "image": {
+                      "width": 800,
+                      "height": 533
+                    }
+                  },
+                  "fileName": "How_much_cinnamon_is_in_a_spoon.jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            },
+            {
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "3uhcj2e79hvr"
+                  }
+                },
+                "id": "2JkAL9Y96EV9HZ8P4HiC2s",
+                "type": "Asset",
+                "createdAt": "2020-03-22T03:49:26.355Z",
+                "updatedAt": "2020-03-22T03:49:26.355Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Ground Cinnamon",
+                "file": {
+                  "url": "//images.ctfassets.net/3uhcj2e79hvr/2JkAL9Y96EV9HZ8P4HiC2s/06cd851ae3633cf6e426c9c2b487aff5/GUEST_7a3c36c4-e6ee-4c97-8192-23a906b91529.jfif",
+                  "details": {
+                    "size": 21192,
+                    "image": {
+                      "width": 400,
+                      "height": 400
+                    }
+                  },
+                  "fileName": "GUEST_7a3c36c4-e6ee-4c97-8192-23a906b91529.jfif",
+                  "contentType": "image/jpeg"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "3uhcj2e79hvr"
+            }
+          },
+          "id": "38MvcwAjNr2C1pz4SF0ef6",
+          "type": "Entry",
+          "createdAt": "2020-03-22T03:52:25.516Z",
+          "updatedAt": "2020-03-22T03:52:25.516Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "ingredient"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "name": "Pure Cane Granulated Sugar",
+          "isKetoFriendly": true,
+          "isAipFriendly": false,
+          "isWhole30Friendly": false,
+          "featuredImages": [
+            {
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "3uhcj2e79hvr"
+                  }
+                },
+                "id": "4ATLPQwoDbiJdTTiQ2hOB6",
+                "type": "Asset",
+                "createdAt": "2020-03-22T03:51:47.438Z",
+                "updatedAt": "2020-03-22T03:51:47.438Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Sugar",
+                "file": {
+                  "url": "//images.ctfassets.net/3uhcj2e79hvr/4ATLPQwoDbiJdTTiQ2hOB6/667676103fdfc4b4dc13a978a7381494/sugar-shutterstock_615908132-800x450.jpg",
+                  "details": {
+                    "size": 66280,
+                    "image": {
+                      "width": 800,
+                      "height": 450
+                    }
+                  },
+                  "fileName": "sugar-shutterstock_615908132-800x450.jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            },
+            {
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "3uhcj2e79hvr"
+                  }
+                },
+                "id": "1qiR8BkVZ3WKokXZAjPvyT",
+                "type": "Asset",
+                "createdAt": "2020-03-22T03:52:09.216Z",
+                "updatedAt": "2020-03-22T03:52:09.216Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Domino Brand Pure Cane Granulated Sugar",
+                "file": {
+                  "url": "//images.ctfassets.net/3uhcj2e79hvr/1qiR8BkVZ3WKokXZAjPvyT/66300e2adffad6fd21058bfacf46b6aa/71EIYafsKuL._AC_SY606_.jpg",
+                  "details": {
+                    "size": 28797,
+                    "image": {
+                      "width": 366,
+                      "height": 606
+                    }
+                  },
+                  "fileName": "71EIYafsKuL._AC_SY606_.jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "tags": [
+      "breakfast",
+      "easy",
+      "simple",
+      "quick",
+      "cheap",
+      "affordable",
+      "bread",
+      "cinnamon",
+      "sugar",
+      "development"
+    ]
+  }
+}

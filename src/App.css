@@ -1,0 +1,203 @@
+:root {
+  --headingFont: "SF Pro Display", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica", sans-serif !important;
+
+  --textFont: "SF UI Text", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica", sans-serif !important;
+
+  --colorBrandBlue: #19f1f1;
+  --colorBrandGreen: #5bfac0;
+  --colorBrandPink: #ee70e1;
+  --colorBrandYellow: #ffd057;
+  --colorBrandBlack: #011206;
+
+  --colorMutedText: #758479;
+  --colorBackgroundGradient: linear-gradient(#fdfffe, #f2f8f5);
+  --colorBrandGradient: linear-gradient(135deg, var(--colorBrandGreen), var(--colorBrandBlue));
+  --colorMainButtonGradient: linear-gradient(
+      175.49deg,
+      rgba(255, 255, 255, 0.15) 19.95%,
+      rgba(255, 255, 255, 0) 84.66%
+    ),
+    radial-gradient(
+      100.55% 2146.95% at -0.37% 0.03%,
+      #14311c 0%,
+      #011206 23.28%,
+      #031f17 85.05%,
+      #073535 100%
+    ),
+    #011206;
+
+  --mainButtonShadow: 0px 4px 8px rgba(25, 241, 241, 0.25), 0px 12px 32px rgba(1, 18, 6, 0.04),
+    0px -4px 7px rgba(112, 252, 151, 0.2);
+
+  --colorPrimary100: #defee6;
+  --colorPrimary200: #bdfed3;
+  --colorPrimary300: #9cfdc7;
+  --colorPrimary400: #83fbc4;
+  --colorPrimary500: #5bfac0;
+  --colorPrimary600: #42d7af;
+  --colorPrimary700: #2db39d;
+  --colorPrimary800: #1d9089;
+  --colorPrimary900: #117477;
+  --colorPrimaryTransparent100: rgba(91, 250, 192, 0.08);
+  --colorPrimaryTransparent200: rgba(91, 250, 192, 0.16);
+  --colorPrimaryTransparent300: rgba(91, 250, 192, 0.24);
+  --colorPrimaryTransparent400: rgba(91, 250, 192, 0.32);
+  --colorPrimaryTransparent500: rgba(91, 250, 192, 0.4);
+  --colorPrimaryTransparent600: rgba(91, 250, 192, 0.48);
+  --colorSuccess100: #e8fbd9;
+  --colorSuccess200: #cdf8b5;
+  --colorSuccess300: #a7ec8c;
+  --colorSuccess400: #82d96b;
+  --colorSuccess500: #4fc13f;
+  --colorSuccess600: #33a52e;
+  --colorSuccess700: #1f8a23;
+  --colorSuccess800: #146f1e;
+  --colorSuccess900: #0c5c1b;
+  --colorSuccessTransparent100: rgba(79, 193, 63, 0.08);
+  --colorSuccessTransparent200: rgba(79, 193, 63, 0.16);
+  --colorSuccessTransparent300: rgba(79, 193, 63, 0.24);
+  --colorSuccessTransparent400: rgba(79, 193, 63, 0.32);
+  --colorSuccessTransparent500: rgba(79, 193, 63, 0.4);
+  --colorSuccessTransparent600: rgba(79, 193, 63, 0.48);
+  --colorInfo100: #dce3ff;
+  --colorInfo200: #bac7ff;
+  --colorInfo300: #98aaff;
+  --colorInfo400: #7e93ff;
+  --colorInfo500: #546dff;
+  --colorInfo600: #3d52db;
+  --colorInfo700: #2a3ab7;
+  --colorInfo800: #1a2693;
+  --colorInfo900: #10197a;
+  --colorInfoTransparent100: rgba(84, 109, 255, 0.08);
+  --colorInfoTransparent200: rgba(84, 109, 255, 0.16);
+  --colorInfoTransparent300: rgba(84, 109, 255, 0.24);
+  --colorInfoTransparent400: rgba(84, 109, 255, 0.32);
+  --colorInfoTransparent500: rgba(84, 109, 255, 0.4);
+  --colorInfoTransparent600: rgba(84, 109, 255, 0.48);
+  --colorWarning100: #fefbcf;
+  --colorWarning200: #fdf7a1;
+  --colorWarning300: #fbf071;
+  --colorWarning400: #f7e84d;
+  --colorWarning500: #f2dc15;
+  --colorWarning600: #d0ba0f;
+  --colorWarning700: #ae9a0a;
+  --colorWarning800: #8c7a06;
+  --colorWarning900: #746404;
+  --colorWarningTransparent100: rgba(242, 220, 21, 0.08);
+  --colorWarningTransparent200: rgba(242, 220, 21, 0.16);
+  --colorWarningTransparent300: rgba(242, 220, 21, 0.24);
+  --colorWarningTransparent400: rgba(242, 220, 21, 0.32);
+  --colorWarningTransparent500: rgba(242, 220, 21, 0.4);
+  --colorWarningTransparent600: rgba(242, 220, 21, 0.48);
+  --colorDanger100: #ffeddd;
+  --colorDanger200: #ffd7bc;
+  --colorDanger300: #ffbc9b;
+  --colorDanger400: #ffa282;
+  --colorDanger500: #ff7759;
+  --colorDanger600: #db5141;
+  --colorDanger700: #b7302c;
+  --colorDanger800: #931c21;
+  --colorDanger900: #7a111d;
+  --colorDangerTransparent100: rgba(255, 119, 89, 0.08);
+  --colorDangerTransparent200: rgba(255, 119, 89, 0.16);
+  --colorDangerTransparent300: rgba(255, 119, 89, 0.24);
+  --colorDangerTransparent400: rgba(255, 119, 89, 0.32);
+  --colorDangerTransparent500: rgba(255, 119, 89, 0.4);
+  --colorDangerTransparent600: rgba(255, 119, 89, 0.48);
+
+  --textShadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  --boxShadow: 0px 4px 12px rgba(1, 18, 6, 0.2), 0px 2px 8px rgba(1, 18, 6, 0.1),
+    0px 2px 8px rgba(1, 18, 6, 0.1);
+
+  --color-selected: var(--colorBrandBlack) !important;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 14px;
+  font-family: var(--textFont);
+  color: var(--colorBrandBlack);
+}
+
+ion-icon {
+  /* color: var(--colorMutedText) !important; */
+}
+
+.AppScreen {
+  --background: var(--colorBackgroundGradient);
+  width: 100vw;
+  height: 100vh;
+}
+
+.MainButton {
+  outline: none !important;
+  background-image: linear-gradient(
+      175.49deg,
+      rgba(103, 98, 98, 0.15) 19.95%,
+      rgba(255, 255, 255, 0) 84.66%
+    ),
+    radial-gradient(
+      100.55% 2146.95% at -0.37% 0.03%,
+      #14311c 0%,
+      #011206 23.28%,
+      #031f17 85.05%,
+      #073535 100%
+    ),
+    linear-gradient(#011206, #011206);
+  height: 44px;
+  box-shadow: 0px 4px 8px rgba(25, 241, 241, 0.25), 0px 12px 32px rgba(1, 18, 6, 0.04),
+    0px -4px 7px rgba(112, 252, 151, 0.2);
+  border: 1px solid var(--colorBrandBlue);
+  font-family: var(--headingFont);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+
+  border-radius: 50px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  padding: 0 32px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.RecipeSearchResultsScreenContent {
+}
+
+.RecipeSearchResultsScreenRecipe {
+  width: 100%;
+  margin: 24px 0;
+  padding: 0 16px;
+}
+
+.ResultRecipeImage {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  box-shadow: var(--boxShadow);
+}
+
+.ViewTitleText {
+  text-align: center;
+}

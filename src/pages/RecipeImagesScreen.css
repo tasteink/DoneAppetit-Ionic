@@ -1,0 +1,21 @@
+.RecipeImagesScreen {
+}
+
+.RecipeImagesScreen .recipeImage {
+  width: calc(100% - 32px);
+  height: 300px;
+  /* outline: 2px solid var(--colorBrandGreen); */
+  box-shadow: var(--boxShadow);
+  border-radius: 8px;
+  margin: 0px 16px 16px;
+}
+
+.RecipeImagesScreen .noMoreImagesText {
+  text-align: center;
+}
+
+.RecipeImagesScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
