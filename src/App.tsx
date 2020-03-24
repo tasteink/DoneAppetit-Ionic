@@ -64,8 +64,6 @@ export const RecipeSearchResultsScreen = (props) => {
 }
 
 export const BrowseRecipesScreen = (props) => {
-  // const recipes = useRecipesQuery(window.location.search.substr(1))
-
   return (
     <WhiteScreen title='Browse Recipes'>
       <div className='RecipeSearchResultsScreenResults' style={{ padding: "0px 16px" }}>
