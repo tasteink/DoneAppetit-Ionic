@@ -1,5 +1,12 @@
 import * as React from "react"
-import { IonContent, IonItem, IonPage, IonLabel, IonCheckbox, IonChip } from "@ionic/react"
+import {
+  IonContent,
+  IonItem,
+  IonPage,
+  IonLabel,
+  IonCheckbox,
+  IonChip
+} from "@ionic/react"
 import styled from "styled-components"
 
 import "./RecipeScreen.css"
@@ -8,6 +15,7 @@ import { Modal } from "../components/common/Modal"
 import { Tag } from "../components/common/Tag"
 import { BackBar } from "../components/common/BackBar"
 import { getRecipe } from "../services/contentful/getRecipe"
+import cookbook from "../cookbook.json"
 
 export interface IProps {
   className: string
@@ -19,9 +27,15 @@ const useRecipe = (recipeId) => {
   const [recipe, setRecipe] = React.useState({})
 
   React.useEffect(() => {
-    getRecipe(recipeId).then((recipe) => {
-      setRecipe(recipe)
-      store.set(recipeId, recipe)
+    const recipe = cookbook.recipes.find((recipe) => recipe.id === recipeId)
+    setRecipe({ ...recipe })
+    store.set(recipeId, recipe)
+    return
+
+    getRecipe(recipeId).then((_recipe) => {
+      // const recipe = cookbook.recipes.find((recipe) => recipe.id === recipeId)
+      // setRecipe({ ...recipe })
+      // store.set(recipeId, recipe)
     })
   }, [])
 
@@ -44,51 +58,46 @@ export function RecipeScreen(props: IProps) {
           <BackBar useWhiteLink />
           <RecipeFeaturedImageBox onClick={routeToFeaturedImages} {...recipe} />
           <div className='RecipeScreeIntroContainer'>
-            <p className='RecipeViewTitleText'>{recipe.name}</p>
-            <p className='Text RecipeScreenShortDescription'>{recipe.shortDescription}</p>
+            <p className='RecipeViewTitleText'>{recipe.title}</p>
+            <p className='Text RecipeScreenShortDescription'>{recipe.note}</p>
             <div className='MainButtonContainer'>
               <button className='MainButton'>Plan This Meal</button>
             </div>
           </div>
           <RecipeContent>
-            <p className='SectionTitleText' style={{ marginBottom: 16 }}>
-              Ingredients
-            </p>
-            <Ingredients>
-              <Ingredient>
-                <p>Sliced Bread (Whole Wheat)</p>
-                <p>4 slices</p>
-              </Ingredient>
-              <Ingredient>
-                <p>Granulated Sugar</p>
-                <p>12 cups</p>
-              </Ingredient>
-              <Ingredient>
-                <p>Ground Cinnamon</p>
-                <p>4 teaspoons</p>
-              </Ingredient>
-              <Ingredient>
-                <p>Margarine</p>
-                <p>all of it</p>
-              </Ingredient>
-            </Ingredients>
+            {recipe.ingredients && (
+              <>
+                <p className='SectionTitleText' style={{ marginBottom: 16 }}>
+                  Ingredients
+                </p>
+                <Ingredients>
+                  {recipe.ingredients.map((ingredient) => (
+                    <Ingredient>
+                      {ingredient.quantity} {ingredient.measurement}{" "}
+                      {ingredient.ingredient} {ingredient.note}
+                    </Ingredient>
+                  ))}
+                </Ingredients>
+              </>
+            )}
 
-            <p className='SectionTitleText' style={{ marginBottom: 16 }}>
-              Directions
-            </p>
-            <Ingredients>
-              <p className='Text' style={{ marginBottom: 16 }}>
-                1. First we want to get all of the ingredients and tools we will need and put them
-                in a big black cauldron.
-              </p>
-
-              <p className='Text' style={{ marginBottom: 16 }}>
-                2. Next, we want to set the cauldron ablaze with the hottest fire you can summon.
-              </p>
-              <p className='Text' style={{ marginBottom: 16 }}>
-                3. When you hear the cauldron beep, its time to get cookin’. 😎
-              </p>
-            </Ingredients>
+            {recipe.ingredients && (
+              <>
+                <p className='SectionTitleText' style={{ marginBottom: 16 }}>
+                  Directions
+                </p>
+                <Ingredients>
+                  {recipe.directions.map((step) => (
+                    <p
+                      className='Text'
+                      style={{ textAlign: "left", marginBottom: 16 }}
+                    >
+                      {step}
+                    </p>
+                  ))}
+                </Ingredients>
+              </>
+            )}
           </RecipeContent>
           {/* <Modal isOpen={isModalOpen}>
             {() => (
@@ -105,24 +114,28 @@ export function RecipeScreen(props: IProps) {
 }
 
 const RecipeFeaturedImageBox = (props) => {
-  const totalTime = props.prepTime + props.cookTime
+  // const totalTime = props.prepTime + props.cookTime
 
-  return !props.featuredImage ? null : (
+  return (
     <div
       className='RecipeFeaturedImageBox'
       onClick={props.onClick}
-      style={{ backgroundImage: `url(${props.featuredImage.file.url})` }}
+      style={{ backgroundImage: `url("${props.images[0]}")` }}
     >
       <div className='RecipeFeaturedImageBoxOverlay'>
         <div className='RecipeFeaturedImageBoxTags'>
           {props.difficulty < 2 && <Tag>EASY</Tag>}
-          {totalTime < 30 && <Tag>QUICK</Tag>}
+          {/* {totalTime < 30 && <Tag>QUICK</Tag>} */}
           {props.isKetoFriendly && <Tag>KETO</Tag>}
-          <p className='BoldText'>{props.featuredImages.length} images</p>
+          <p className='BoldText'>{props.images.length} images</p>
         </div>
       </div>
     </div>
   )
+}
+
+RecipeFeaturedImageBox.defaultProps = {
+  images: []
 }
 
 RecipeScreen.defaultProps = {

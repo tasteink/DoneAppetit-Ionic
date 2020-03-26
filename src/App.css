@@ -1,9 +1,13 @@
 :root {
-  --headingFont: "SF Pro Display", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica", sans-serif !important;
+  --headingFont: "SF Pro Display", "Helvetica Neue", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica", sans-serif !important;
 
-  --textFont: "SF UI Text", "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica", sans-serif !important;
+  --textFont: "SF UI Text", "Helvetica Neue", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica",
+    sans-serif !important;
+
+  --ion-font-family: var(--headingfont);
 
   --colorBrandBlue: #19f1f1;
   --colorBrandGreen: #5bfac0;
@@ -13,23 +17,11 @@
 
   --colorMutedText: #758479;
   --colorBackgroundGradient: linear-gradient(#fdfffe, #f2f8f5);
-  --colorBrandGradient: linear-gradient(135deg, var(--colorBrandGreen), var(--colorBrandBlue));
-  --colorMainButtonGradient: linear-gradient(
-      175.49deg,
-      rgba(255, 255, 255, 0.15) 19.95%,
-      rgba(255, 255, 255, 0) 84.66%
-    ),
-    radial-gradient(
-      100.55% 2146.95% at -0.37% 0.03%,
-      #14311c 0%,
-      #011206 23.28%,
-      #031f17 85.05%,
-      #073535 100%
-    ),
-    #011206;
-
-  --mainButtonShadow: 0px 4px 8px rgba(25, 241, 241, 0.25), 0px 12px 32px rgba(1, 18, 6, 0.04),
-    0px -4px 7px rgba(112, 252, 151, 0.2);
+  --colorBrandGradient: linear-gradient(
+    135deg,
+    var(--colorBrandGreen),
+    var(--colorBrandBlue)
+  );
 
   --colorPrimary100: #defee6;
   --colorPrimary200: #bdfed3;
@@ -114,6 +106,11 @@
   --color-selected: var(--colorBrandBlack) !important;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -140,6 +137,7 @@ ion-icon {
   --background: var(--colorBackgroundGradient);
   width: 100vw;
   height: 100vh;
+  padding-bottom: 24px;
 }
 
 .MainButton {
@@ -158,8 +156,8 @@ ion-icon {
     ),
     linear-gradient(#011206, #011206);
   height: 44px;
-  box-shadow: 0px 4px 8px rgba(25, 241, 241, 0.25), 0px 12px 32px rgba(1, 18, 6, 0.04),
-    0px -4px 7px rgba(112, 252, 151, 0.2);
+  box-shadow: 0px 4px 8px rgba(25, 241, 241, 0.25),
+    0px 12px 32px rgba(1, 18, 6, 0.04), 0px -4px 7px rgba(112, 252, 151, 0.2);
   border: 1px solid var(--colorBrandBlue);
   font-family: var(--headingFont);
   font-style: normal;

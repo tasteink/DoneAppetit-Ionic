@@ -1,0 +1,815 @@
+{
+  "approved_at": 1498085026,
+  "aspect_ratio": "1:1",
+  "beauty_url": null,
+  "brand_id": null,
+  "buzz_id": null,
+  "cook_time_minutes": null,
+  "description": null,
+  "id": 694,
+  "inspired_by_url": null,
+  "is_one_top": false,
+  "is_shoppable": true,
+  "keywords": "alfredo lasagna, chicken alfredo, chicken alfredo lasagna",
+  "language": "eng",
+  "name": "Chicken Alfredo Lasagna",
+  "num_servings": 6,
+  "prep_time_minutes": null,
+  "promotion": "full",
+  "seo_title": null,
+  "servings_noun_plural": "servings",
+  "servings_noun_singular": "serving",
+  "show_id": 17,
+  "slug": "chicken-alfredo-lasagna",
+  "thumbnail_url": "https://img.buzzfeed.com/video-api-prod/assets/5ba783b0e18248c495d1b5e23778c47f/BFV15870_ChickenAlfredoLasagna-ThumbA1080.jpg",
+  "tips_and_ratings_enabled": true,
+  "total_time_minutes": null,
+  "updated_at": 1560185075,
+  "video_id": 10031,
+  "video_url": "https://vid.tasty.co/output/18737/low_1482260634.m3u8",
+  "yields": "Servings: 6-8",
+  "nutrition_visibility": "auto",
+  "compilations": [
+    {
+      "approved_at": 1516404956,
+      "aspect_ratio": null,
+      "beauty_url": null,
+      "buzz_id": null,
+      "country": "US",
+      "created_at": 1516398821,
+      "description": null,
+      "draft_status": "published",
+      "id": 430,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "8 Epic Lasagnas",
+      "promotion": "full",
+      "slug": "8-epic-lasagnas",
+      "thumbnail_url": "https://s3.amazonaws.com/video-api-prod/assets/97740f979085400e809cf5c913190775/LFBThumb.jpg",
+      "video_id": 43694,
+      "video_url": "https://vid.tasty.co/output/73877/hls24_1516407059.m3u8",
+      "canonical_id": "compilation:430",
+      "facebook_posts": [],
+      "show": [{ "id": 17, "name": "Tasty" }]
+    },
+    {
+      "approved_at": 1540953316,
+      "aspect_ratio": "1:1",
+      "beauty_url": null,
+      "buzz_id": null,
+      "country": "US",
+      "created_at": 1540833883,
+      "description": null,
+      "draft_status": "published",
+      "id": 709,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "7 Nights of Pasta",
+      "promotion": "full",
+      "slug": "7-nights-of-pasta",
+      "thumbnail_url": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/185873.jpg",
+      "video_id": 69696,
+      "video_url": "https://vid.tasty.co/output/113581/hls24_1540833952.m3u8",
+      "canonical_id": "compilation:709",
+      "facebook_posts": [],
+      "show": [{ "id": 17, "name": "Tasty" }]
+    },
+    {
+      "approved_at": 1583891663,
+      "aspect_ratio": "1:1",
+      "beauty_url": null,
+      "buzz_id": null,
+      "country": "US",
+      "created_at": 1583851515,
+      "description": null,
+      "draft_status": "published",
+      "id": 1432,
+      "is_shoppable": false,
+      "keywords": null,
+      "language": "eng",
+      "name": "12 Extra Cheesy Layered Lasagna Recipes",
+      "promotion": "full",
+      "slug": "12-extra-cheesy-layered-lasagna-recipes",
+      "thumbnail_url": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/257124.jpg",
+      "video_id": 99978,
+      "video_url": "https://vid.tasty.co/output/161574/hls24_1582991941.m3u8",
+      "canonical_id": "compilation:1432",
+      "facebook_posts": [],
+      "show": [{ "id": 17, "name": "Tasty" }]
+    }
+  ],
+  "brand": null,
+  "total_time_tier": null,
+  "instructions": [
+    {
+      "id": 4593,
+      "display_text": "Preheat oven to 350°F (180°C).",
+      "position": 1,
+      "start_time": 0,
+      "end_time": 0,
+      "temperature": 350,
+      "appliance": "oven"
+    },
+    {
+      "id": 4594,
+      "display_text": "Slice each chicken breasts in half lengthwise and sprinkle 1 teaspoon of salt, pepper, and garlic powder evenly on both sides of each chicken breast.",
+      "position": 2,
+      "start_time": 517,
+      "end_time": 8367,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4595,
+      "display_text": "Heat oil in a large pan over high heat, then sear the chicken for about 1 minute per side. They will continue to cook through in the oven later on.",
+      "position": 3,
+      "start_time": 9367,
+      "end_time": 14617,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4596,
+      "display_text": "In the residual oil (drain some if necessary), toss in the garlic and onions, stirring constantly until the mixture has started to brown.",
+      "position": 4,
+      "start_time": 15617,
+      "end_time": 19667,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4597,
+      "display_text": "Pour in the cream, stirring until it starts to boil, then add the parmesan and parsley.",
+      "position": 5,
+      "start_time": 20667,
+      "end_time": 26817,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4598,
+      "display_text": "Cook for 1 additional minute, then remove from heat.",
+      "position": 6,
+      "start_time": 27817,
+      "end_time": 32650,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4599,
+      "display_text": "In a 9\" x 13\" (23cm x 33cm)  rectangular baking pan, spread about ¼ of the cream mixture on the bottom.",
+      "position": 7,
+      "start_time": 33650,
+      "end_time": 35917,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4600,
+      "display_text": "Lay enough lasagna noodles to cover the sauce, then spread about ½ of the remaining cream mixture on top.",
+      "position": 8,
+      "start_time": 37067,
+      "end_time": 38867,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4601,
+      "display_text": "Place enough chicken breasts to cover the sauce, then sprinkle with half of the mozzarella, followed by half of the bacon and half of the parsley.",
+      "position": 9,
+      "start_time": 39867,
+      "end_time": 47067,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4602,
+      "display_text": "Repeat the layers once more, starting with noodles, sauce, chicken, bacon, parsley, and mozzarella.",
+      "position": 10,
+      "start_time": 47617,
+      "end_time": 52267,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4603,
+      "display_text": "Bake for about 25 minutes, until the cheese is golden brown.",
+      "position": 11,
+      "start_time": 0,
+      "end_time": 0,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4604,
+      "display_text": "Cool for about 15 minutes, slice, and serve!",
+      "position": 12,
+      "start_time": 54117,
+      "end_time": 64467,
+      "temperature": null,
+      "appliance": null
+    },
+    {
+      "id": 4605,
+      "display_text": "Enjoy!",
+      "position": 13,
+      "start_time": 65016,
+      "end_time": 67567,
+      "temperature": null,
+      "appliance": null
+    }
+  ],
+  "sections": [
+    {
+      "components": [
+        {
+          "id": 7132,
+          "raw_text": "4-6 boneless, skinless chicken breasts",
+          "extra_comment": "",
+          "position": 1,
+          "measurements": [
+            {
+              "id": 397022,
+              "quantity": "4",
+              "unit": {
+                "name": "",
+                "abbreviation": "",
+                "display_singular": "",
+                "display_plural": "",
+                "system": "none"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 33,
+            "name": "boneless, skinless chicken breast",
+            "display_singular": "boneless, skinless chicken breast",
+            "display_plural": "boneless, skinless chicken breasts",
+            "created_at": 1493390997,
+            "updated_at": 1509035287
+          }
+        },
+        {
+          "id": 7133,
+          "raw_text": "4-6 teaspoons salt",
+          "extra_comment": "",
+          "position": 2,
+          "measurements": [
+            {
+              "id": 397014,
+              "quantity": "4",
+              "unit": {
+                "name": "teaspoon",
+                "abbreviation": "tsp",
+                "display_singular": "teaspoon",
+                "display_plural": "teaspoons",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 22,
+            "name": "salt",
+            "display_singular": "salt",
+            "display_plural": "salts",
+            "created_at": 1493314644,
+            "updated_at": 1509035288
+          }
+        },
+        {
+          "id": 7134,
+          "raw_text": "4-6 teaspoons pepper",
+          "extra_comment": "",
+          "position": 3,
+          "measurements": [
+            {
+              "id": 397023,
+              "quantity": "4",
+              "unit": {
+                "name": "teaspoon",
+                "abbreviation": "tsp",
+                "display_singular": "teaspoon",
+                "display_plural": "teaspoons",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 29,
+            "name": "pepper",
+            "display_singular": "pepper",
+            "display_plural": "peppers",
+            "created_at": 1493314935,
+            "updated_at": 1509035287
+          }
+        },
+        {
+          "id": 7135,
+          "raw_text": "4-6 teaspoons garlic powder",
+          "extra_comment": "",
+          "position": 4,
+          "measurements": [
+            {
+              "id": 397020,
+              "quantity": "4",
+              "unit": {
+                "name": "teaspoon",
+                "abbreviation": "tsp",
+                "display_singular": "teaspoon",
+                "display_plural": "teaspoons",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 9,
+            "name": "garlic powder",
+            "display_singular": "garlic powder",
+            "display_plural": "garlic powders",
+            "created_at": 1493307128,
+            "updated_at": 1509035289
+          }
+        },
+        {
+          "id": 7136,
+          "raw_text": "4 tablespoons canola oil",
+          "extra_comment": "",
+          "position": 5,
+          "measurements": [
+            {
+              "id": 397018,
+              "quantity": "4",
+              "unit": {
+                "name": "tablespoon",
+                "abbreviation": "tbsp",
+                "display_singular": "tablespoon",
+                "display_plural": "tablespoons",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 825,
+            "name": "canola oil",
+            "display_singular": "canola oil",
+            "display_plural": "canola oils",
+            "created_at": 1495764700,
+            "updated_at": 1509035230
+          }
+        },
+        {
+          "id": 7137,
+          "raw_text": "3 cloves garlic, minced",
+          "extra_comment": "minced",
+          "position": 6,
+          "measurements": [
+            {
+              "id": 397019,
+              "quantity": "3",
+              "unit": {
+                "name": "clove",
+                "abbreviation": "clove",
+                "display_singular": "clove",
+                "display_plural": "cloves",
+                "system": "none"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 95,
+            "name": "garlic",
+            "display_singular": "garlic",
+            "display_plural": "garlics",
+            "created_at": 1493744766,
+            "updated_at": 1509035285
+          }
+        },
+        {
+          "id": 7138,
+          "raw_text": "½ medium white onion, finely chopped",
+          "extra_comment": "finely chopped",
+          "position": 7,
+          "measurements": [
+            {
+              "id": 397024,
+              "quantity": "½",
+              "unit": {
+                "name": "",
+                "abbreviation": "",
+                "display_singular": "",
+                "display_plural": "",
+                "system": "none"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 1560,
+            "name": "medium white onion",
+            "display_singular": "medium white onion",
+            "display_plural": "medium white onions",
+            "created_at": 1496848868,
+            "updated_at": 1509035180
+          }
+        },
+        {
+          "id": 7139,
+          "raw_text": "2 cups heavy cream",
+          "extra_comment": "",
+          "position": 8,
+          "measurements": [
+            {
+              "id": 397017,
+              "quantity": "480",
+              "unit": {
+                "name": "milliliter",
+                "abbreviation": "mL",
+                "display_singular": "mL",
+                "display_plural": "mL",
+                "system": "metric"
+              }
+            },
+            {
+              "id": 397015,
+              "quantity": "2",
+              "unit": {
+                "name": "cup",
+                "abbreviation": "c",
+                "display_singular": "cup",
+                "display_plural": "cups",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 221,
+            "name": "heavy cream",
+            "display_singular": "heavy cream",
+            "display_plural": "heavy creams",
+            "created_at": 1494214054,
+            "updated_at": 1509035278
+          }
+        },
+        {
+          "id": 7140,
+          "raw_text": "½ cup parmesan cheese",
+          "extra_comment": "",
+          "position": 9,
+          "measurements": [
+            {
+              "id": 397026,
+              "quantity": "55",
+              "unit": {
+                "name": "gram",
+                "abbreviation": "g",
+                "display_singular": "g",
+                "display_plural": "g",
+                "system": "metric"
+              }
+            },
+            {
+              "id": 397025,
+              "quantity": "½",
+              "unit": {
+                "name": "cup",
+                "abbreviation": "c",
+                "display_singular": "cup",
+                "display_plural": "cups",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 334,
+            "name": "shredded parmesan cheese",
+            "display_singular": "shredded parmesan cheese",
+            "display_plural": "shredded parmesan cheeses",
+            "created_at": 1494880013,
+            "updated_at": 1509035269
+          }
+        },
+        {
+          "id": 7141,
+          "raw_text": "1 cup parsley, chopped",
+          "extra_comment": "chopped",
+          "position": 10,
+          "measurements": [
+            {
+              "id": 397011,
+              "quantity": "35",
+              "unit": {
+                "name": "gram",
+                "abbreviation": "g",
+                "display_singular": "g",
+                "display_plural": "g",
+                "system": "metric"
+              }
+            },
+            {
+              "id": 397010,
+              "quantity": "1",
+              "unit": {
+                "name": "cup",
+                "abbreviation": "c",
+                "display_singular": "cup",
+                "display_plural": "cups",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 154,
+            "name": "fresh parsley",
+            "display_singular": "fresh parsley",
+            "display_plural": "fresh parsleys",
+            "created_at": 1493906396,
+            "updated_at": 1509035283
+          }
+        },
+        {
+          "id": 7142,
+          "raw_text": "10-12 cooked lasagna noodles",
+          "extra_comment": "cooked",
+          "position": 11,
+          "measurements": [
+            {
+              "id": 397016,
+              "quantity": "10",
+              "unit": {
+                "name": "",
+                "abbreviation": "",
+                "display_singular": "",
+                "display_plural": "",
+                "system": "none"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 1273,
+            "name": "lasagna noodle",
+            "display_singular": "lasagna noodle",
+            "display_plural": "lasagna noodles",
+            "created_at": 1496668286,
+            "updated_at": 1509035198
+          }
+        },
+        {
+          "id": 7143,
+          "raw_text": "2 cups mozzarella cheese, shredded",
+          "extra_comment": "",
+          "position": 12,
+          "measurements": [
+            {
+              "id": 397013,
+              "quantity": "200",
+              "unit": {
+                "name": "gram",
+                "abbreviation": "g",
+                "display_singular": "g",
+                "display_plural": "g",
+                "system": "metric"
+              }
+            },
+            {
+              "id": 397012,
+              "quantity": "2",
+              "unit": {
+                "name": "cup",
+                "abbreviation": "c",
+                "display_singular": "cup",
+                "display_plural": "cups",
+                "system": "imperial"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 169,
+            "name": "shredded mozzarella cheese",
+            "display_singular": "shredded mozzarella cheese",
+            "display_plural": "shredded mozzarella cheeses",
+            "created_at": 1493925751,
+            "updated_at": 1509035282
+          }
+        },
+        {
+          "id": 7144,
+          "raw_text": "6 strips bacon, cooked and crumbled",
+          "extra_comment": "cooked and crumbled",
+          "position": 13,
+          "measurements": [
+            {
+              "id": 397021,
+              "quantity": "6",
+              "unit": {
+                "name": "strip",
+                "abbreviation": "strip",
+                "display_singular": "strip",
+                "display_plural": "strips",
+                "system": "none"
+              }
+            }
+          ],
+          "ingredient": {
+            "id": 214,
+            "name": "bacon",
+            "display_singular": "bacon",
+            "display_plural": "bacons",
+            "created_at": 1494212643,
+            "updated_at": 1509035279
+          }
+        }
+      ],
+      "name": null,
+      "position": 1
+    }
+  ],
+  "tags": [
+    { "id": 64486, "name": "dinner", "display_name": "Dinner", "type": "meal" },
+    {
+      "id": 64500,
+      "name": "date_night",
+      "display_name": "Date Night",
+      "type": "occasion"
+    },
+    { "id": 65846, "name": "oven", "display_name": "Oven", "type": "appliance" },
+    {
+      "id": 64444,
+      "name": "american",
+      "display_name": "American",
+      "type": "cuisine"
+    },
+    {
+      "id": 64503,
+      "name": "casual_party",
+      "display_name": "Casual Party",
+      "type": "occasion"
+    },
+    {
+      "id": 65851,
+      "name": "big_batch",
+      "display_name": "Big Batch",
+      "type": "dish_style"
+    },
+    {
+      "id": 64462,
+      "name": "comfort_food",
+      "display_name": "Comfort Food",
+      "type": "dietary"
+    },
+    {
+      "id": 65848,
+      "name": "stove_top",
+      "display_name": "Stove Top",
+      "type": "appliance"
+    },
+    { "id": 64453, "name": "italian", "display_name": "Italian", "type": "cuisine" },
+    { "id": 65410, "name": "fusion", "display_name": "Fusion", "type": "cuisine" },
+    { "id": 64492, "name": "bake", "display_name": "Bake", "type": "method" },
+    {
+      "id": 1280501,
+      "name": "chefs_knife",
+      "display_name": "Chef's Knife",
+      "type": "equipment"
+    },
+    {
+      "id": 1280503,
+      "name": "cutting_board",
+      "display_name": "Cutting Board",
+      "type": "equipment"
+    },
+    {
+      "id": 1247787,
+      "name": "saute_pan",
+      "display_name": "Saute Pan",
+      "type": "equipment"
+    },
+    { "id": 1247790, "name": "tongs", "display_name": "Tongs", "type": "equipment" },
+    {
+      "id": 1280507,
+      "name": "dry_measuring_cups",
+      "display_name": "Dry Measuring Cups",
+      "type": "equipment"
+    },
+    {
+      "id": 1247794,
+      "name": "wooden_spoon",
+      "display_name": "Wooden Spoon",
+      "type": "equipment"
+    },
+    {
+      "id": 1280506,
+      "name": "liquid_measuring_cup",
+      "display_name": "Liquid Measuring Cup",
+      "type": "equipment"
+    },
+    {
+      "id": 1280500,
+      "name": "baking_pan",
+      "display_name": "Baking Pan",
+      "type": "equipment"
+    },
+    {
+      "id": 1247775,
+      "name": "oven_mitts",
+      "display_name": "Oven Mitts",
+      "type": "equipment"
+    },
+    {
+      "id": 1280508,
+      "name": "measuring_spoons",
+      "display_name": "Measuring Spoons",
+      "type": "equipment"
+    },
+    {
+      "id": 65840,
+      "name": "cast_iron_pan",
+      "display_name": "Cast Iron Pan",
+      "type": "appliance"
+    }
+  ],
+  "user_ratings": {
+    "count_positive": 424,
+    "count_negative": 12,
+    "score": 0.9724770642
+  },
+  "credits": [
+    { "name": "Alvin Zhou", "type": "internal", "email": "alvin.zhou@buzzfeed.com" }
+  ],
+  "original_video_url": "https://s3.amazonaws.com/video-api-prod/assets/a84c784ae3b84608b71230b0ec0ece3e/BFV15680_ChickenAlfredoLasagna-FB2.mp4",
+  "video_ad_content": "none",
+  "canonical_id": "recipe:694",
+  "show": { "id": 17, "name": "Tasty" },
+  "facebook_posts": [],
+  "renditions": [
+    {
+      "height": 720,
+      "width": 720,
+      "duration": 0,
+      "file_size": null,
+      "bit_rate": null,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "content_type": "video/mp4",
+      "aspect": "square",
+      "container": "mp4",
+      "url": "https://vid.tasty.co/output/18737/mp4_1280X720/1482260634",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/18737/mp4_1280X720/1482260634_00001.png",
+      "name": "mp4_720x720"
+    },
+    {
+      "height": 1080,
+      "width": 1080,
+      "duration": 0,
+      "file_size": null,
+      "bit_rate": null,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "content_type": "application/vnd.apple.mpegurl",
+      "aspect": "square",
+      "container": "mp4",
+      "url": "https://vid.tasty.co/output/18737/low_1482260634.m3u8",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/18737/1445289064805-h2exzu/1482260634_00001.png",
+      "name": "low"
+    },
+    {
+      "height": 640,
+      "width": 640,
+      "duration": 0,
+      "file_size": null,
+      "bit_rate": null,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "content_type": "video/mp4",
+      "aspect": "square",
+      "container": "mp4",
+      "url": "https://vid.tasty.co/output/18737/mp4_640x640/1482260634",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/18737/mp4_640x640/1482260634_00001.png",
+      "name": "mp4_640x640"
+    },
+    {
+      "height": 720,
+      "width": 720,
+      "duration": 0,
+      "file_size": null,
+      "bit_rate": null,
+      "maximum_bit_rate": null,
+      "minimum_bit_rate": null,
+      "content_type": "video/mp4",
+      "aspect": "square",
+      "container": "mp4",
+      "url": "https://vid.tasty.co/output/18737/mp4_720x1280/1482260634",
+      "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/18737/mp4_720x1280/1482260634_00001.png",
+      "name": "mp4_720x720"
+    }
+  ],
+  "nutrition": {
+    "calories": 959,
+    "carbohydrates": 17,
+    "fat": 73,
+    "protein": 64,
+    "sugar": 4,
+    "fiber": 1,
+    "updated_at": "2019-05-29T16:00:00+02:00"
+  }
+}

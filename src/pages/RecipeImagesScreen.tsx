@@ -32,12 +32,16 @@ export interface IProps {
 export const RecipeImagesScreen = (props) => {
   const { recipeId } = props.match.params
   const recipe = store.get(recipeId)
+
   return (
     <WhiteScreen title='Recipe Images'>
       <div className='RecipeImagesScreen'>
         {/*  */}
-        {recipe.featuredImages.map((featuredImage) => (
-          <img src={featuredImage.file.url} className='recipeImage' />
+        {recipe.images.map((image) => (
+          <div
+            className='recipeImage'
+            style={{ backgroundImage: `url("${image}")` }}
+          />
         ))}
         <p className='SmallMutedText noMoreImagesText'>No more images to show. :(</p>
       </div>

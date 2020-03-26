@@ -8,6 +8,8 @@
   box-shadow: var(--boxShadow);
   border-radius: 8px;
   margin: 0px 16px 16px;
+  background-size: cover;
+  background-position: center;
 }
 
 .RecipeImagesScreen .noMoreImagesText {

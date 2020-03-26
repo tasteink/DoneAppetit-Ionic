@@ -6,6 +6,7 @@ import {
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
+  IonButton,
   IonTabs
 } from "@ionic/react"
 import { IonReactRouter } from "@ionic/react-router"
@@ -34,6 +35,14 @@ import "./theme/variables.css"
 import { WhiteScreen } from "./components/common/WhiteScreen"
 import { RecipeImagesScreen } from "./pages/RecipeImagesScreen"
 import { RecipeBlock } from "./components/RecipeBlock"
+import { SelectExample } from "./Rambler"
+import componentCssProperties from "./theme/componentCssProperties"
+import { createGlobalStyle } from "styled-components"
+import { Button } from "./components/common/Button"
+
+const GlobalStyle = createGlobalStyle`
+  ${(props) => ({ ...componentCssProperties.root })}
+`
 
 const useRecipesQuery = (query) => {
   const [recipes, setRecipes] = React.useState([])
@@ -53,11 +62,12 @@ export const RecipeSearchResultsScreen = (props) => {
   return (
     <WhiteScreen title='Search Results'>
       <div className='RecipeSearchResultsScreenResults'>
-        {recipes.map((recipe: any) => (
+        {/* {recipes.map((recipe: any) => (
           <div className='RecipeSearchResultsScreenRecipe'>
             <RecipeBlock wide {...recipe} />
           </div>
-        ))}
+        ))} */}
+        <SelectExample />
       </div>
     </WhiteScreen>
   )
@@ -67,12 +77,13 @@ export const BrowseRecipesScreen = (props) => {
   return (
     <WhiteScreen title='Browse Recipes'>
       <div className='RecipeSearchResultsScreenResults' style={{ padding: "0px 16px" }}>
-        <p className='SectionTitleText'>TODO</p>
+        {/* <p className='SectionTitleText'>TODO</p>
         {[].map((recipe: any) => (
           <div className='RecipeSearchResultsScreenRecipe'>
             <RecipeBlock wide {...recipe} />
           </div>
-        ))}
+        ))} */}
+        <Button>Click Me</Button>
       </div>
     </WhiteScreen>
   )
@@ -80,6 +91,7 @@ export const BrowseRecipesScreen = (props) => {
 
 const App: React.FC = () => (
   <IonApp>
+    <GlobalStyle whiteColor />
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>

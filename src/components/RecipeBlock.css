@@ -1,6 +1,6 @@
 .RecipeBlock {
-  margin: 0 8px;
-  width: fit-content;
+  margin: 0;
+  width: 100%;
 }
 
 .RecipeBlock.wide {
@@ -10,13 +10,14 @@
 
 .RecipeBlockFeaturedImage {
   max-width: 100%;
-  width: 150px;
+  width: 100%;
   height: 150px;
   border-radius: 8px;
   background-size: cover;
   background-position: center;
   box-shadow: var(--boxShadow);
   margin-bottom: 12px;
+  border: 4px solid rgba(0, 0, 0, 0.5);
 }
 
 .wide .RecipeBlockFeaturedImage {
