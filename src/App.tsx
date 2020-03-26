@@ -26,7 +26,7 @@ import { Redirect, Route } from "react-router-dom"
 import store from "store"
 import "./App.css"
 import { BackBar } from "./components/common/BackBar"
-import { HomeScreen } from "./pages/HomeScreen"
+import { HomeScreen, useCuratedRecipes } from "./pages/HomeScreen"
 import { RecipeScreen } from "./pages/RecipeScreen"
 import { SearchScreen } from "./pages/SearchScreen"
 import Tab3 from "./pages/Tab3"
@@ -57,33 +57,37 @@ const useRecipesQuery = (query) => {
 }
 
 export const RecipeSearchResultsScreen = (props) => {
-  const recipes = useRecipesQuery(window.location.search.substr(1))
+  // const recipes = useRecipesQuery(window.location.search.substr(1))
+  const recipes = useCuratedRecipes()
 
   return (
     <WhiteScreen title='Search Results'>
       <div className='RecipeSearchResultsScreenResults'>
-        {/* {recipes.map((recipe: any) => (
-          <div className='RecipeSearchResultsScreenRecipe'>
-            <RecipeBlock wide {...recipe} />
+        {recipes.map((recipe: any) => (
+          <div className='RecipeSearchResultsScreenRecipe' key={recipe.id}>
+            <RecipeBlock {...recipe} />
           </div>
-        ))} */}
-        <SelectExample />
+        ))}
       </div>
     </WhiteScreen>
   )
 }
 
 export const BrowseRecipesScreen = (props) => {
+  const recipes = useCuratedRecipes()
+
   return (
     <WhiteScreen title='Browse Recipes'>
-      <div className='RecipeSearchResultsScreenResults' style={{ padding: "0px 16px" }}>
-        {/* <p className='SectionTitleText'>TODO</p>
-        {[].map((recipe: any) => (
-          <div className='RecipeSearchResultsScreenRecipe'>
-            <RecipeBlock wide {...recipe} />
+      <div
+        className='RecipeSearchResultsScreenResults'
+        style={{ padding: "0px 16px" }}
+      >
+        <p className='SectionTitleText'>TODO</p>
+        {recipes.map((recipe: any) => (
+          <div className='RecipeSearchResultsScreenRecipe' key={recipe.id}>
+            <RecipeBlock {...recipe} />
           </div>
-        ))} */}
-        <Button>Click Me</Button>
+        ))}
       </div>
     </WhiteScreen>
   )
@@ -96,10 +100,18 @@ const App: React.FC = () => (
       <IonTabs>
         <IonRouterOutlet>
           <Route path='/recipe/:recipeId' exact component={RecipeScreen} />
-          <Route path='/recipe/:recipeId/featuredImages' exact component={RecipeImagesScreen} />
+          <Route
+            path='/recipe/:recipeId/featuredImages'
+            exact
+            component={RecipeImagesScreen}
+          />
           <Route path='/search/recipes' component={RecipeSearchResultsScreen} />
           <Route path='/home' component={HomeScreen} exact={true} />
-          <Route path='/browse/:category' component={BrowseRecipesScreen} exact={true} />
+          <Route
+            path='/browse/:category'
+            component={BrowseRecipesScreen}
+            exact={true}
+          />
           <Route path='/search' component={SearchScreen} exact={true} />
           <Route path='/user' component={Tab3} />
           <Route path='/' render={() => <Redirect to='/home' />} exact={true} />

@@ -35,7 +35,7 @@ const IntroSection = styled.section`
 
 const EMPTY_ARRAY_10 = Array(10).fill({})
 
-const useCuratedRecipes = () => {
+export const useCuratedRecipes = () => {
   const [recipes, setRecipes] = React.useState(EMPTY_ARRAY_10)
 
   React.useEffect(() => {

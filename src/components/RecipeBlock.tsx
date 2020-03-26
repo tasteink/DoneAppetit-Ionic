@@ -29,7 +29,7 @@ const LoadingTitle = () => {
 const LoadingImage = () => {
   return (
     <>
-      <Skeleton height={142} width={136} />
+      <Skeleton height={142} />
       <Spacer size='1px' />
     </>
   )
