@@ -42,7 +42,7 @@
     "react-stack-grid": "^0.7.1",
     "react-stonecutter": "^0.3.10",
     "recipe-scraper": "^1.14.1",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "store": "^2.0.12",
     "styled-components": "^5.0.1",
     "typescript": "3.7.4"
